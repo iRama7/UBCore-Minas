@@ -1,0 +1,19 @@
+config:
+  save_logout_world: true
+debug-mode: true
+permissions:
+  comando-minas: comando.minas
+  comando-dragon: comando.dragon
+  comando-nether: comando.nether
+  comando-parcelas: comand.parcelas
+  comando-villa: comand.villa
+messages:
+  join: "&a▲ &7%player_name%"
+  new-player: "&6&lUB> &f%player_name% &6Ha entrado por primera vez al servidor!"
+commands:
+  minas:
+    - "[CONSOLE];customwarps warp minas %player%"
+  nether:
+    - "[CONSOLE];customwarps warp nether %player%"
+  dragon:
+    - "[CONSOLE];customwarps warp end %player%"

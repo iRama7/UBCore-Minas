@@ -1,0 +1,14 @@
+name: UBCoreMinas
+version: '${project.version}'
+main: rama.ubcminas.UBCoreMinas
+api-version: 1.17
+authors: [ ImRama ]
+description: Core plugin for UnBloque
+commands:
+  parcelas:
+  p:
+  dragon:
+  minas:
+  nether:
+  villa:
+    aliases: [spawn]
